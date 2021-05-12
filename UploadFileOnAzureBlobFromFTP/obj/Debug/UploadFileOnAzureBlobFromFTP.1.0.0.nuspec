@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UploadFileOnAzureBlobFromFTP</id>
+    <version>1.0.0</version>
+    <authors>Priti Kuamr</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="SSH.NET" version="2020.0.1" exclude="Build,Analyzers" />
+        <dependency id="WindowsAzure.Storage" version="9.3.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\UploadFileOnAzureBlobFromFTP\UploadFileOnAzureBlobFromFTP\bin\Debug\netcoreapp3.1\UploadFileOnAzureBlobFromFTP.dll" target="lib\netcoreapp3.1\UploadFileOnAzureBlobFromFTP.dll" />
+  </files>
+</package>
